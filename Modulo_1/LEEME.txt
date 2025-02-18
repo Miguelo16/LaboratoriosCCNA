@@ -1,0 +1,5 @@
+Cada carpeta es un laboratorio de configuración que contiene la copia del laboratorio sin hacer y otro realizado. El laboratorio realizado tiene el mismo nombre con la palabra realizado al final.
+
+Los laboratorios que no están en carpetas se tratan de laboratorios sin configuración, solo learning
+
+Mucho animo
