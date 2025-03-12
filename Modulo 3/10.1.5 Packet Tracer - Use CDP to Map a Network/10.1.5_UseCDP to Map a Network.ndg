@@ -1,0 +1,82 @@
+Version 8.21
+Diagram_Title ""
+Notes1 
+Notes2 
+Page_Settings_Table Width Height Orientation Pos_X Pos_Y Draw_Scale Fine_Scale Created_By Create_Date Updated_By Update_Date Adjust_X Adjust_Y Page_Locked
+ page_settings 3000 2000 landscape 186 -15 0.5 2 ! ! User 20/02/2025 0 0 Unlocked
+Colours_Table Bkgnd Link_Text Grid Float_Foregnd Float_Backgnd
+ colours &hFFFFFF& &hFF0000& &hFEEDED& &h0& &hC0FFFF&
+Obj_Table Index Type X Y Caption_Lbl Float_text Hyperlink Parent Addr_Lbl X_scale Y_scale Layer Type_bits Rotate Options Backgnd Width Height Locked Toolset Var1 Var2
+ object 1 routerc1 364 852 1 ! ! 0 2 1 1 2 0 0 0 false 100 61 false 0 ! !
+ object 2 routerc1 1150 842 3 ! ! 0 4 1 1 2 0 0 0 false 100 61 false 0 ! !
+ object 3 "Workgroup Switch" 360 604 7 ! ! 0 8 1 1 2 0 0 0 false 77 36 false 0 ! !
+ object 4 PC2 366 298 9 ! ! 0 10 1 1 2 0 0 0 false 100 92 false 0 ! !
+ object 5 firewall1 1540 818 12 ! ! 0 13 1 1 2 0 0 0 false 59 131 false 0 ! !
+ object 6 "multilayer switch" 1952 826 14 ! ! 0 15 1 1 2 0 0 0 false 69 67 false 0 ! !
+ object 7 "multilayer switch" 2522 546 16 ! ! 0 17 1 1 2 0 0 0 false 69 67 false 0 ! !
+ object 8 "multilayer switch" 2530 1040 18 ! ! 0 19 1 1 2 0 0 0 false 69 67 false 0 ! !
+ no_object 9
+ no_object 10
+ object 11 routerc1 724 858 26 ! ! 0 27 1 1 2 0 0 0 false 100 61 false 0 ! !
+Label_Table Index X Y Text Font_Name Size Bold Italic UL ST Colour Parent Type Backgnd Locked Rotate Ftranspcy Btranspcy Layer Style Xoffset Yoffset
+ label 1 s 44 Edge ! ! ! ! false ! &h0& 1 object ! ! 0 255 0 0 !
+ label 2 n -30.5 ! ! ! ! ! false ! &h0& 1 ip ! ! 0 255 0 0 !
+ label 3 s 44 Branch-Edge ! ! ! ! false ! &h0& 2 object ! ! 0 255 0 0 !
+ label 4 n -30.5 ! ! ! ! ! false ! &h0& 2 ip ! ! 0 255 0 0 !
+ no_label 5
+ no_label 6
+ label 7 s 31.5 SW1 ! ! ! ! false ! &h0& 3 object ! ! 0 255 0 0 !
+ label 8 n -18 ! ! ! ! ! false ! &h0& 3 ip ! ! 0 255 0 0 !
+ label 9 s 59.5 PC2 ! ! ! ! false ! &h0& 4 object ! ! 0 255 0 0 !
+ label 10 n -46 ! ! ! ! ! false ! &h0& 4 ip ! ! 0 255 0 0 !
+ no_label 11
+ label 12 s 79 firewall1 ! ! ! ! false ! &h0& 5 object ! ! 0 255 0 0 !
+ label 13 n -65.5 ! ! ! ! ! false ! &h0& 5 ip ! ! 0 255 0 0 !
+ label 14 s 47 sw-br-floor2 ! ! ! ! false ! &h0& 6 object ! ! 0 255 0 0 !
+ label 15 n -33.5 ! ! ! ! ! false ! &h0& 6 ip ! ! 0 255 0 0 !
+ label 16 s 47 sw-br-floor1 ! ! ! ! false ! &h0& 7 object ! ! 0 255 0 0 !
+ label 17 n -33.5 ! ! ! ! ! false ! &h0& 7 ip ! ! 0 255 0 0 !
+ label 18 s 47 sw-br-floor3 ! ! ! ! false ! &h0& 8 object ! ! 0 255 0 0 !
+ label 19 n -33.5 ! ! ! ! ! false ! &h0& 8 ip ! ! 0 255 0 0 !
+ no_label 20
+ no_label 21
+ no_label 22
+ no_label 23
+ no_label 24
+ no_label 25
+ label 26 s 44 Interconexion ! ! ! ! false ! &h0& 11 object ! ! 0 255 0 0 !
+ label 27 n -30.5 ! ! ! ! ! false ! &h0& 11 ip ! ! 0 255 0 0 !
+Link_Table Index Obj1 Obj2 Style Hostname1_Lbl Hostname2_Lbl Addr1_Lbl Addr2_Lbl Comment1 Comment2 Xoffset1 Yoffset1 Xoffset2 Yoffset2 Node_List Align Layer
+ no_link_object 1
+ link_object 2 1 3 100baseT 0 0 0 0 ! ! 8 4 12 10 ! False 3
+ link_object 3 3 4 100baseT 0 0 0 0 ! ! 6 2 6 0 ! False 3
+ no_link_object 4
+ link_object 5 5 6 100baseT 0 0 0 0 ! ! -2 24 -6 10 ! False 3
+ link_object 6 6 7 100baseT 0 0 0 0 ! ! 4 -6 -8 4 ! False 3
+ link_object 7 6 8 100baseT 0 0 0 0 ! ! 14 0 -6 4 ! False 3
+ no_link_object 8
+ link_object 9 1 11 100baseT 0 0 0 0 ! ! 30 0 -34 -2 ! False 3
+ link_object 10 11 2 100baseT 0 0 0 0 ! ! 34 -4 -36 -2 ! False 3
+ link_object 11 2 5 100baseT 0 0 0 0 ! ! 28 4 -16 32 ! False 3
+Link_Styles_table Type Format Colour Style Width Misc Angle Style2 Length Endcap Join Startcap Dashcap Transpcy Align Secondary_Style start_cap_type variant width height x y end_cap_type variant width height x y
+ define_link 100baseT 0 &h808080& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link 1000BaseT 0 &h9797FF& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "64K LL" 0 &hFF00& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "64k ISDN" 0 &hFF& 3 1 9 1 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "128K LL" 0 &hFF80FF& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "256K LL" 0 &hFFFF& 1 4 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "512K LL" 0 &h808080& 1 5 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "1M LL" 0 &hC0C0C0& 1 6 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "2M LL" 0 &h808080& 1 7 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link Fibre 0 &h0& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link Cable 1 &hFF00& 1 12 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link ADSL 1 &hFF8000& 1 12 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link ATM 1 &hC080FF& 1 12 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "64K LL2" 1 &hFF00& 1 12 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "128K LL2" 1 &hFF80FF& 1 14 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "256K LL2" 1 &hFFFF& 1 16 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "512K LL2" 1 &h808080& 1 18 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "1M LL2" 1 &hC0C0C0& 1 20 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "2M LL2" 1 &h808080& 1 22 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link backbone 0 &hC0C0C0& 1 3 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+Shapes_Table Name Type Variant Colour1 Transpcy1 Colour2 Transpcy2 Colour3 Transpcy3 Dim1 Dim2 FillX1 FillY1 FillX2 FillY2 Width Height Borderstyle Dashcap Antialias
